@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-nav span{
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+     color: #254461;
+}
+
+.links_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.links_nav div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.links_nav div a{
+    color: #254461;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 35px;
+    color: #AD7B49;
+}
+
+section{
+    padding-top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 4.4rem;
+}
+
+.text-resume{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.text-resume div h1{
+    color: #AD7B49;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.text-resume div{
+    width: 60%;
+    text-justify: distribute;
+}
+
+.text-resume div span{
+    color: #254461;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    padding-bottom: 70px;
+    padding-top: 80px;
+}
+
+.tech{
+    background-color: #254461;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.tech-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    gap: 10px;
+}
+
+.tech-inf div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    border-radius: 20px;
+}
+
+.tech-inf div img{
+    width: 120px;
+    height: 100px;
+}
+
+article div h1{
+    color: #AD7B49;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.projects div h1{
+    color: #AD7B49;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.projects-container{
+    width: 100%;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.projects-container div{
+    width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    padding-bottom: 20px;
+}
+
+.img-inf img{
+    width: 100%;
+    height: 274px;
+}
+
+.projects-container div div a{
+    color: #AD7B49;
+    width: max-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.projects-container div div h2{
+    color: #254461;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.0rem;
+}
+
+.projects-container div div a:hover{
+    color: #254461;
+}
+.projects-container div div h4{
+    color: #AD7B49;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.inf{
+    width: 100%;
+}
+
+.inf div{
+    padding: 10px;
+}
+
+.inf div div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+}
+.inf div div span{
+    color: #254461;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.0rem;
+}
+
+.ellipse-icon-concluido{
+    color: green;
+    background-color: green;
+    border-radius: 100%;
+    font-size: 13px;
+}
+
+.inf div span{
+    text-align: justify;
+    color: #254461;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.ellipse-icon-andamento{
+    color: orange;
+    background-color: orange;
+    border-radius: 100%;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links_nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tech-inf {
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .projects-container div {
+        width: 100%;
+        margin-bottom: 20px;
+        min-height: 577px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-nav span {
+        font-size: 1.2rem;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+
+    .text-resume div{
+        width: 83%;
+    }
+
+    .text-resume div h1 {
+        font-size: 2rem;
+    }
+
+    .text-resume div span {
+        font-size: 1.2rem;
+    }
+
+    article div h1 {
+        font-size: 2rem;
+    }
+
+    .projects div h1 {
+        font-size: 2rem;
+    }
+}
